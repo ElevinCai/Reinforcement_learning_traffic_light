@@ -15,11 +15,11 @@ A traffic light simulator combined with reinforcement learning system ( Q-learni
 #### Policy
 
 ``` 
-  Ɛ-greedy: choose the action that has highest estimated reward (wherther if switch the light) > choose random action
+Ɛ-greedy: choose the action that has highest estimated reward (wherther if switch the light) > choose random action
   
-  Ɛ-soft: choose the action that has highest estimated reward  < choose random action
+Ɛ-soft: choose the action that has highest estimated reward  < choose random action
   
-  Different Ɛ value was selected to compare the perfromance  
+Different Ɛ value was selected to compare the perfromance  
   
   ```
   
