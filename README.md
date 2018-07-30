@@ -6,8 +6,8 @@ A traffic light simulator combined with reinforcement learning system ( Q-learni
 
   ```
   State (vertical, horizontal, light setting, delay):
-      Closest car position from intersection for the vertical road(0-8, 9 if no cars) X
-      Closest car position from intersection fro the horizontal road(0-8, 9 if no cars) X
+      Closest car position from intersection on the vertical road(0-8, 9 if no cars) X
+      Closest car position from intersection on the horizontal road(0-8, 9 if no cars) X
       Light setting( 1 = traffic light on vertical road  is red, 0 = traffic light on horizontal road is red)
       Delay( 0-3, Time needed to wait until the next switch action can be executed)
   ```
